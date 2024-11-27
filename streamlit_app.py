@@ -25,7 +25,7 @@ def load_data():
 df = load_data()
 
 # Show a multiselect widget with the genres using `st.multiselect`.
-genres = st.multiselect(
+grupo_de_clientes = st.multiselect(
     "Grupo de Clientes",
     df.genre.unique(),
     ["JUAN TORRES", "AEROPUERTO", "DISTRIBUIDORA", "EVENTUAL", "NG", "NG - POLO", "PRIVADO"],
